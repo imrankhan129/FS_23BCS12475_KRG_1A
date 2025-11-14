@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Using HTML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f2f2f2;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    nav {
+      margin: 10px 0;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: blue;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      background: #fff;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ddd;
+    }
+
+    input, textarea, button {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      padding: 5px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    button {
+      background-color: blue;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 8px 15px;
+    }
+
+    button:hover {
+      background-color: darkblue;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Imran Khan</h1>
+  <p>C++ | Data Structures | Full Stack</p>
+  <hr>
+
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#education">Education</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+  <hr>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm a Computer Science enthusiast with a passion for building efficient, scalable, and user-friendly software solutions. I enjoy problem-solving, especially through competitive programming, and constantly seek to learn and experiment with emerging technologies. From developing simple apps to working on hardware-integrated systems, I thrive on turning ideas into reality. I'm currently exploring opportunities to contribute to impactful projects and grow as a developer.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C++, STL</li>
+      <li>SQL</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Git, GitHub</li>
+      <li>Java</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ol>
+      <li><strong>Weather Forecasting Web App:</strong>
+        <br>
+        A web application built using HTML, CSS, and JavaScript that fetches real-time weather data using an external API.
+      </li>
+      <li><strong>Smart Irrigation System:</strong>
+        <br>
+        An IoT-based solution using Arduino and soil moisture sensors to automate water supply in farms or gardens.
+      </li>
+      <li><strong>Personal Expense Tracker:</strong>
+        <br>
+        A desktop application developed in Python using the tkinter library to record and analyze daily expenses.
+      </li>
+    </ol>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>Degree</th>
+        <th>Institute</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>B.E. (CSE)</td>
+        <td>Chandigarh University</td>
+        <td>2027</td>
+      </tr>
+      <tr>
+        <td>12th</td>
+        <td>Swastik Academy</td>
+        <td>2022</td>
+      </tr>
+      <tr>
+        <td>10th</td>
+        <td>Swastik Academy</td>
+        <td>2020</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    Name:<br>
+    <input type="text" placeholder="Enter your name"><br>
+    E-Mail:<br>
+    <input type="text" placeholder="Enter your email"><br>
+    Message:<br>
+    <textarea id="message" placeholder="Enter your message" rows="5" cols="50"></textarea>
+    <br>
+    <button>Submit</button>
+  </section>
+
+  <footer>
+    <hr>
+    &copy; 2025 Imran Khan. All rights reserved.
+  </footer>
+</body>
+
+</html>
