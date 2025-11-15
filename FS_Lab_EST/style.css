@@ -1,0 +1,35 @@
+.product1 {
+    width: 300px;
+    border: 1px solid #9b9b9b;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.product2 {
+    width: 300px;
+    border: 1px solid #9b9b9b;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.product1:hover{
+    transform: scale(1.2);
+}
+.product2:hover{
+    transform: scale(1.2);
+}
+
+.p_name{
+   color: crimson;
+}
+.p_price{
+    color: rgb(5, 188, 11);
+    font-size: large;
+    font-weight: bold;
+}
+.p_image2{
+    width: auto;
+    height: 200px;
+}
